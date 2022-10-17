@@ -1,12 +1,11 @@
 import React from "react";
-import HomePage from "./components/HomePage/HomePage";
-import Footer from "./components/Footer/Footer";
+import HomePage from "./pages/Homepage/HomePage";
+import "./App.css";
 
 export default function App() {
   return (
     <div>
       <HomePage />
-      <Footer />
     </div>
   );
 }
